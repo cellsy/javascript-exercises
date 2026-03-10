@@ -4,11 +4,10 @@ const repeatString = function() {
     if (numRepeats < 0) return "ERROR"
     let stringToRepeat = arguments[0]
     let repeatedString = ""
-    console.log(numRepeats, stringToRepeat)
+
     for (let i = 0; i < numRepeats; i++) {
         repeatedString += stringToRepeat
     }
-    console.log(repeatedString)
 
     return repeatedString
 };
